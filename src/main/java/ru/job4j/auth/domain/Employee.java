@@ -24,7 +24,7 @@ public class Employee implements Serializable {
     @JoinTable(name = "employee_person",
             joinColumns = @JoinColumn(name = "employee_id"),
             inverseJoinColumns = @JoinColumn(name = "person_id"))
-    ArrayList<Person> accounts = new ArrayList<>();
+    private ArrayList<Person> accounts = new ArrayList<>();
 
     public Employee(int id, String name, String surname, String codeI, Timestamp hiringDate) {
         this.id = id;
