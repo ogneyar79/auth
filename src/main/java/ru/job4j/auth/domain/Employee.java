@@ -15,7 +15,7 @@ public class Employee implements Serializable {
 
     private String name;
     private String surname;
-    String codeI;
+    private String codeI;
 
     private Timestamp hiringDate;
 

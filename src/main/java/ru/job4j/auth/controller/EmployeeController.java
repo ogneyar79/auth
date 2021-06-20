@@ -23,7 +23,7 @@ public class EmployeeController {
     private static final String API = "http://localhost:8080/person/";
     private static final String API_ID = "http://localhost:8080/person/{id}";
     @Autowired
-    RestTemplate rest;
+   private RestTemplate rest;
 
     @Autowired
     private final EmployeeRepository repositoryEmp;
